@@ -39,7 +39,7 @@ height: 100%;
 
 header {
 height: 800px;
-background-image: url("./img/hero-bg.svg");
+background-image: url("./img/hero-bg.png");
 background-size: cover;
 background-position: center center;
 background-repeat: no-repeat;
