@@ -1,0 +1,307 @@
+/* ====================================================
+|-------------FONT FAMILY FOR THE WEB PAGE-------------|
+====================================================== */
+
+@font-face {
+font-family:"Averta" ;
+src: url(./font-family/AvertaDemoPECuttedDemo-Regular_dghpn7.otf);
+}
+
+
+/* ====================================================
+|-------------LITTLE RESET/GENERIC STYLING-------------|
+====================================================== */
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: "Averta", sans-serif;
+}
+
+a {
+color: #E7332B;
+text-decoration: none;
+}
+
+a:hover{
+color: #eb5850;
+}
+
+
+html,body{
+height: 100%;
+} 
+
+/* ====================================================
+|---------------------HEADER--------------------------|
+====================================================== */
+
+header {
+height: 800px;
+background-image: url("../img/hero-bg.svg");
+background-size: cover;
+background-position: center center;
+background-repeat: no-repeat;
+}
+
+
+.headerImage{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 69px;
+margin-bottom: 69px;
+}
+
+
+.headerText{
+padding: 10px;
+max-width: 700px;
+margin: 0 auto;
+text-align: center;
+}
+
+
+.headerText h2 {
+font-size: 2rem;
+line-height: 3rem;
+font-weight: 800;
+color: #514949;
+margin-bottom: 2.25rem;
+}
+
+.headerText p{
+font-size: 1rem;
+line-height: 1.5rem;
+color: #514949;
+opacity: 0.9;
+}
+
+.buttonBox{
+margin-top: 92px;
+}
+
+.btn{
+padding: 11px 28px;
+border: 1px solid #E7332B;
+cursor: pointer;
+}
+
+.btn:active{
+    border: 3px solid #000;
+}
+
+.btnRedBg{
+background-color: #E7332B;
+color: #fff;
+margin-right: 24px;
+}
+
+.btnRedBg:hover{
+background-color: #fff;
+color: #E7332B;
+}
+
+.btnRedOutline{
+background-color: #fff;
+color: #E7332B;
+}
+
+.btnRedOutline:hover{
+background-color: #E7332B;
+color: #fff;
+}
+
+
+/* ====================================================
+|---------------------PROGRAM SECTION------------------|
+====================================================== */
+
+.programSection{
+background-color: #fff;
+max-width: 1440px;
+/* width: 100%; */
+padding-left: 15px;
+ padding-right: 15px;
+}
+
+.programSection > :nth-child(-n+2){
+text-align: center;
+}
+
+.programSection .heading{
+font-size: 14px;
+line-height: 24px;
+color: #E7332B;
+margin-top: 141px;
+}
+
+.programSection .leadText{
+font-size: 24px;
+line-height: 40px;
+color: #514949;
+margin-top: 8px;
+margin-bottom: 64px;
+}
+
+/* .programBoxContainer > img {
+max-width: 400px;
+position: relative;
+
+}
+
+.pbc-left >img{
+left: -120px;
+top: -75px;
+}
+
+.pbc-right >img{
+right: -120px;
+top: -75px;
+} */
+
+.program-card{
+flex-basis: 32%;
+padding: 61px 47px 82px 36px;
+background-color: #FFFAFA;
+position: relative;
+
+}
+
+  
+.program-card img{
+margin-bottom: 3rem;
+}
+
+.program-card p{
+margin-bottom: 1rem;
+font-size: 16px;
+line-height: 24px;
+color: #514949;
+opacity: 0.9;
+white-space: pre-line;
+}
+
+
+.program-card h3 a {
+font-size: 16px;
+line-height: 24px;
+color: #E7332B;
+opacity: 0.9;
+}
+
+
+.programContainer{
+display:flex;
+justify-content: center;
+flex-wrap: wrap;
+align-items: center;
+gap: 16px;
+}
+
+
+
+/* ====================================================
+|---------------------FOOTER--------------------------|
+====================================================== */
+.footer{
+position: sticky;
+top: 100vh;
+margin-top: 215px;
+max-width: 1240px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.footerContainer{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+margin-bottom: 56px;
+padding: 20px;
+}
+
+.footerContainer p{
+margin-bottom: 1rem;
+}
+
+.footerContainer h3{
+font-size:16px ;
+margin-bottom: 1rem;
+font-weight: bold;
+line-height: 24px;
+color: #514949;
+}
+
+
+.contact-icons img {
+width: 18px;
+margin-right: 5px;
+}
+
+
+.copyright p {
+font-size: 16px;
+line-height: 24px;
+font-weight: bold;
+margin-top: 32px;
+color: #514949;
+padding-bottom: 97px;
+text-align: center;
+}
+
+
+
+/* ====================================================
+|---------------------MEDIA QUERY----------------------|
+====================================================== */
+@media (max-width:768px){
+
+
+.btn{
+display: block;
+margin: auto;
+}
+
+
+.buttonBox{
+margin-top: 12rem;
+margin-bottom: 50px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 30px;
+}
+
+
+.program-card{
+flex-basis: 100%;
+}
+
+.program-card p{
+white-space: normal;
+}
+
+
+.footerContainer{
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.footerContainer h3{
+font-size: 24px;
+margin-top: 35px;
+}
+
+.address > *{
+text-align: center;
+}
+
+
+
+
+}

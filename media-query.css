@@ -1,0 +1,222 @@
+
+@media screen and (max-width:1199px){
+
+    .navBar .btn{
+    margin-right: 0;
+    }
+
+    .home .container{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    }
+
+    .textForHome p:nth-child(2){
+    white-space: normal;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    .home img{
+    margin-top: 50px;
+    }
+
+    .textForSection1 p:nth-of-type(1){
+    font-size: 30px;
+    line-height: 34px;
+    }
+
+    .boxContainer{
+    flex-basis: 45%;
+    flex-grow: 1;
+
+    }
+
+    .section2 .container > p{
+    font-size: 30px;
+    line-height: 34px;
+    }
+
+}
+    
+    
+@media screen and (max-width:900px){
+    .section1 .container{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+
+    .textForSection1 > p {
+    text-align: center;
+    }
+
+
+    .textForSection1 p:nth-of-type(1){
+        white-space: normal;
+        font-size: 30px;
+        line-height: 49px;
+        margin: auto;
+        width: 80%;
+    }
+
+
+    .sectionCountriesImpacted{
+        justify-content: center;
+    }
+}
+
+    
+@media screen and (max-width:768px){
+
+    .navBar .btn{
+    padding: 8px 25px;
+    }
+
+
+    .navLinks{
+    display: none;
+    }
+
+
+
+    .textForHome p:nth-child(2){
+    width: 90%;
+    line-height: 1.5;
+    }
+
+}
+
+    
+@media screen and (max-width:600px){
+    
+        
+    .navBar .container{
+    gap: 1.5rem;
+    height:60px;
+    }
+
+    .home{
+    width: 100%;
+
+    }
+    .home .container{
+    width: 100%;
+    align-items: center;
+
+    }
+
+
+
+    .textForHome p:nth-child(2){
+    width: 100%;
+    }
+
+
+    .homeBtn{
+    display: flex;
+    justify-content: center;
+    }
+    .homeBtn .btn{
+    padding: 10px 25px;
+    line-height: 19px;
+
+    }
+
+    .home img{
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+
+    .textForSection1 p:nth-of-type(1){
+    line-height: 30px;  
+    font-size: 1.8rem; 
+    }
+
+
+    .country{
+    flex-basis: 40px;
+    }
+
+
+    .section1HeadImages img{
+    max-width: 272px;
+    }
+
+    .section2 .container{
+    width: 100%;
+    padding: 12px;
+    }
+
+    .notBtn{
+    justify-content: center;
+    }
+    .notBtn p{
+    flex-basis: 40%;
+    text-align: center;
+    padding: 8px;
+    }
+
+    .section2 .container > p{
+    text-align:center;
+    white-space:normal;
+    }
+
+
+    .workEnvironment p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .section3 .container{
+    width: 100%;
+    }
+
+    .section3 .container > p{
+    font-size: 28px;
+    line-height: 30px;
+    text-align: center;
+    width: 100%;
+    }
+
+    .boxContainer p{
+    font-size: .95rem;
+    }
+
+    .section3Box{
+    flex-direction: column;
+    }
+
+    .boxContainer{
+    flex-basis: 100%;
+    }
+
+
+    .buttonBox .btn{
+    padding: 11px;
+    }
+        
+
+    .footerLogoWithSocialIcons{
+    flex-direction: column;
+    gap: 1.25rem;
+    }
+
+    
+    .copyright{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+    }
+
+    .copyright :first-child{
+    text-align: center;
+    }
+
+    
+}
